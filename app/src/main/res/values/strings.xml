@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Washington Tour Guide</string>
+    <string name="app_name_short">WTG</string>
+
+    <array name="categories">
+        <item>Restaurants</item>
+        <item>Businesses</item>
+        <item>Religion</item>
+        <item>Fun</item>
+        <item>Schools</item>
+    </array>
+
+</resources>
