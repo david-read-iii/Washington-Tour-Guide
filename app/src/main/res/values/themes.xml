@@ -24,8 +24,9 @@
     <style name="TabLayout" parent="Widget.Design.TabLayout">
         <item name="tabBackground">?attr/colorPrimary</item>
         <item name="tabMode">scrollable</item>
-        <item name="tabIndicatorColor">?attr/colorOnPrimary</item>
         <item name="tabTextColor">?attr/colorOnPrimary</item>
+        <item name="tabIndicatorColor">?attr/colorSecondary</item>
+        <item name="tabRippleColor">?attr/colorSecondary</item>
     </style>
 
     <style name="TextView.Title" parent="TextAppearance.AppCompat.Medium">
@@ -33,5 +34,7 @@
     </style>
 
     <style name="TextView.Subtitle" parent="TextAppearance.AppCompat.Small" />
+
+    <style name="AlertDialog" parent="@android:style/Theme.Dialog"
 
 </resources>
