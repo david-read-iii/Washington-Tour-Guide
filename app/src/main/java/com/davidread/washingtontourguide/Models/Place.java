@@ -5,8 +5,9 @@ import android.os.Parcelable;
 
 /**
  * {@link Place} is a model class that represents a place of interest in Washington. Each
- * {@link Place} object has a {@link String} object for name, address, and description. Implements
- * {@link Parcelable} so that objects may be passed as arguments to activities and fragments.
+ * {@link Place} object has a {@link String} object for name, address, and description. Each object
+ * also has an int for an image resource id. Implements {@link Parcelable} so that objects may be
+ * passed as arguments to activities and fragments.
  */
 public class Place implements Parcelable {
 
@@ -27,18 +28,21 @@ public class Place implements Parcelable {
     private String name;
     private String address;
     private String description;
+    private int imageResourceId;
 
     /**
      * Constructs a new {@link Place} object given its member variables.
      *
-     * @param name        Name of the place.
-     * @param address     Street address of the place.
-     * @param description Paragraph description of the place.
+     * @param name            Name of the place.
+     * @param address         Street address of the place.
+     * @param description     Paragraph description of the place.
+     * @param imageResourceId The image resource id that points to an image for the place.
      */
-    public Place(String name, String address, String description) {
+    public Place(String name, String address, String description, int imageResourceId) {
         this.name = name;
         this.address = address;
         this.description = description;
+        this.imageResourceId = imageResourceId;
     }
 
     /**
@@ -81,6 +85,15 @@ public class Place implements Parcelable {
     }
 
     /**
+     * Get the image resource id of the place.
+     *
+     * @return The image resource id of the place.
+     */
+    public int getImageResourceId() {
+        return imageResourceId;
+    }
+
+    /**
      * Returns an int describing the type of objects contained in the {@link Parcelable} instance.
      *
      * @return An int describing the type of objects contained in the {@link Parcelable} instance.
@@ -101,5 +114,6 @@ public class Place implements Parcelable {
         dest.writeString(name);
         dest.writeString(address);
         dest.writeString(description);
+        dest.writeInt(imageResourceId);
     }
 }

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -59,8 +60,10 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         Place place = getItem(position);
 
         // Populate convertView with properties of this Place object.
+        ImageView imageView = convertView.findViewById(R.id.list_item_image_view);
         TextView nameTextView = convertView.findViewById(R.id.list_item_name_text_view);
         TextView addressTextView = convertView.findViewById(R.id.list_item_address_text_view);
+        imageView.setImageResource(place.getImageResourceId());
         nameTextView.setText(place.getName());
         addressTextView.setText(place.getAddress());
 

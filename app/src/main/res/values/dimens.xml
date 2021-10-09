@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="list_item_image_view_size">88dp</dimen>
+    <dimen name="list_item_text_view_horizontal_margin">16dp</dimen>
 </resources>
