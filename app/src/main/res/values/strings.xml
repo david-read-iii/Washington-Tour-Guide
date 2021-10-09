@@ -4,4 +4,165 @@
     <string name="app_name_short">WTG</string>
     <string name="neutral_dialog_button">Close</string>
 
+    <array name="place_names">
+        <item>Juanitos Mexican Restaurant</item>
+        <item>Allie\'s Cupcakery &amp; Café</item>
+        <item>William\'s Irish Tavern</item>
+        <item>Empanada Mamasita</item>
+        <item>Washington Diner</item>
+        <item>Dave\'s Friendly Services Inc</item>
+        <item>Warren County Liquors LLC</item>
+        <item>Castle Family Dentistry, LLC. Brian C. Bialiy, DMD</item>
+        <item>M Y Accounting and Tax Services</item>
+        <item>Albea Americas, Inc</item>
+        <item>Faith Discovery Church</item>
+        <item>United Methodist Church</item>
+        <item>First Presbyterian Church</item>
+        <item>St. Joseph Roman Catholic Church</item>
+        <item>Worship Church Washington</item>
+        <item>Roaring Rock Park</item>
+        <item>Von Thun Farms</item>
+        <item>Pohatcong Native Arboretum</item>
+        <item>Washington Borough Pocket Park</item>
+        <item>Taylor Street School</item>
+        <item>Warren Hills Regional Middle School</item>
+        <item>Brass Castle Elementary School</item>
+        <item>Memorial Elementary School</item>
+        <item>Warren Hills Regional High School</item>
+    </array>
+
+    <array name="place_addresses">
+        <item>3 Broad St</item>
+        <item>7 Broad St</item>
+        <item>101 E Washington Ave</item>
+        <item>65 E Washington Ave</item>
+        <item>6 NJ-31</item>
+        <item>288 W Washington Ave</item>
+        <item>260 W Washington Ave</item>
+        <item>151 W Washington Ave 1st floor</item>
+        <item>111 W Washington Ave</item>
+        <item>191 NJ-31</item>
+        <item>33 Brass Castle Rd</item>
+        <item>116 E Washington Ave</item>
+        <item>40 E Church St</item>
+        <item>200 Carlton Ave</item>
+        <item>38 Kinnaman Ave</item>
+        <item>Harmony Brass Castle Rd</item>
+        <item>438 NJ-57</item>
+        <item>52 Mine Hill Rd</item>
+        <item>44 E Washington Ave</item>
+        <item>16 Taylor St #24</item>
+        <item>64-66 Carlton Ave</item>
+        <item>16 Castle St</item>
+        <item>300 W Stewart St</item>
+        <item>41 Jackson Valley Rd</item>
+    </array>
+
+    <array name="place_descriptions">
+        <item>The experienced chefs of Juanitos Mexican Restaurant in Washington create authentic
+            Mexican Cuisine using fresh ingredients and traditional recipes.
+        </item>
+        <item>Allie\'s Cupcakery &amp; Café is an eatery years in the making. In fact, you might say
+            that its origins date all the way back to 1949! That was the year Josephine Pistilli, my
+            grandma, opened Pistilli\'s Family Restaurant in Bernardsville, NJ. She spent years
+            cooking, expanding, and perfecting her business. Having lived a stone\'s throw away
+            (literally) from her restaurant until my early twenties, I spent most of my time
+            learning and working by my grandma\'s side.
+        </item>
+        <item>William’s Irish Tavern welcomes you like an old friend. Everyday we greet and serve
+            our friends and neighbors in Washington, NJ just like our namesake did years ago.
+            Colonel William McCullough opened the very first tavern in Washington Borough, New
+            Jersey in 1811. Colonel McCullough built his tavern to build his community; through the
+            sharing of food and drink many great ideas and great friendships were born. With
+            numerous popular and craft beer choices and a menu full of traditional pub favorites, so
+            on continues the tradition of great food, great drink and great friends at William’s
+            Irish Tavern today. Cheers!
+        </item>
+        <item>Latin comfort food.</item>
+        <item>The key to our success is simple: providing quality consistent food that taste great
+            every single time. We pride ourselves on serving our customers delicious genuine dishes
+            like: American.
+        </item>
+        <item>Welcome to Dave\'s Friendly Service! We are a full service, automotive repair and
+            maintenance shop serving the Washington area since 1976. We understand that sometimes
+            car repair can be stressful and we do everything possible to make our customers feel
+            welcome, comfortable and satisfied with their service experience. We make your service
+            experience hassle-free. We are happy to offer early bird and night-owl drop-box service
+            and local shuttle service to your home or office.
+        </item>
+        <item>Fine liquor, wine, spirits, and beer.</item>
+        <item>The true test of a quality dental office is the longevity of its staff. Castle Family
+            Dentistry is proud that, on average, our staff has been with us for over 13 years. They
+            provide a familiar, caring environment that you can trust.
+        </item>
+        <item>They do taxes and stuff. Idk.</item>
+        <item>Big company with no website to get info from. Not sure what they do. Lol.</item>
+        <item>Here at FDC we have three Core Values by which we strive to live. Authentic, be real!
+            Accepting, be loving! Accelerating, be encouraging!
+        </item>
+        <item>Greenstone is a welcoming and affirming community of faith located in the heart of
+            Downtown Washington, NJ. We are thrilled to provide you with a Christ centered
+            experience and an environment to nurture your spirit or raise a family.
+        </item>
+        <item>Orange Presbyterian church.</item>
+        <item>Welcome! And thank you for visiting our Parish web site. The pages of this site speak
+            of a humble and proud family. Humble in our beginning and reality of who we are before
+            God, and proud to be a people doing his work for over 140 years. As you scroll through
+            these pages please keep us in your prayers as we will remember you.
+        </item>
+        <item>To know Jesus and experience Him is our greatest call. Our mission is to live and make
+            disicples consecrated to Him. We do this through living in authenitc community and
+            offering multiple ways to get involved, grow and stay connected.
+        </item>
+        <item>Hiking trail up by Brass Castle Road.</item>
+        <item>Nestled in scenic Warren County, VonThun Farms is open spring, summer, and fall with
+            events and activities for the whole family! Visit the New Jersey Sunflower Trail, New
+            Jersey’s premier sunflower destination. Stop into our farm market for homegrown fruits,
+            vegetables and angus beef and pick your own strawberries, raspberries, blackberries,
+            peaches, apples and pumpkins.
+        </item>
+        <item>Pohatcong Native Arboretum, Native Tree Museum of New Jersey, has an exhibition on
+            display of over 155 species of native trees, shrubs, and vines. The plants are
+            identified by plaques with common, family, genus, and species names. Between 2010 and
+            2015 our plant collection was tripled.
+        </item>
+        <item>Small park nestled between some businesses in the boro.</item>
+        <item>Taylor Street Elementary School is a public school located in Washington, NJ, which is
+            in a fringe town setting.The student population of Taylor Street Elementary School is
+            188, and the school serves PK-2.
+        </item>
+        <item>Warren Hills Regional Middle School is comprised of 659 diverse 7th and 8th grade
+            students. Our Middle School structure includes two departmentally clustered grade level
+            teams. Presently, the range of academic opportunities for students includes courses in
+            Language Arts Literacy, Mathematics, Science, Social Studies, World Languages, Visual
+            &amp; Performing Arts, Fine Arts, Computer Applications, Health &amp; Physical
+            Education, Music, Careers, Computer Assisted Instruction for Math and Language Arts and
+            Interdisciplinary Enrichment. All areas of study benefit from the expansion of our
+            technological resources through our district technology plan. Teachers have access to a
+            variety of technological tools, which are used to enhance and supplement educational
+            pedagogy.
+        </item>
+        <item>Our school district consists of two elementary schools, the Port Colden School and the
+            Brass Castle School, educating students in grades kindergarten through sixth. Washington
+            Township School District is a place that reflects, nurtures and promotes the sense of
+            fellowship so valued by the community it serves.
+        </item>
+        <item>Washington Memorial Elementary School is a public school located in WASHINGTON, NJ. It
+            has 268 students in grades 3-6 with a student-teacher ratio of 11 to 1. According to
+            state test scores, 40% of students are at least proficient in math and 52% in reading.
+        </item>
+        <item>Warren Hills Regional High School is a four-year public high school located on Jackson
+            Valley Road in Washington Township in Warren County, New Jersey, United States,
+            operating as part of the Warren Hills Regional School District.
+        </item>
+    </array>
+
+    <array name="place_categories">
+        <item>Restaurants</item>
+        <item>Businesses</item>
+        <item>Religion</item>
+        <item>Fun</item>
+        <item>Schools</item>
+    </array>
+
 </resources>
