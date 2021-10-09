@@ -5,21 +5,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.davidread.washingtontourguide.Fragments.CategoryFragment;
 import com.davidread.washingtontourguide.Models.Place;
 import com.davidread.washingtontourguide.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * {@link PlaceAdapter} is an adapter class the extends the {@link ArrayAdapter} class of
- * {@link Place} objects. It adapts an {@link java.util.ArrayList} of {@link Place} objects to be
- * displayed in a {@link android.widget.ListView} object of the
- * {@link com.davidread.washingtontourguide.Fragments.PlacesListFragment}.
+ * {@link Place} objects. It adapts an {@link ArrayList} of {@link Place} objects to be
+ * displayed in a {@link ListView} object of the {@link CategoryFragment}.
  */
 public class PlaceAdapter extends ArrayAdapter<Place> {
 
@@ -35,16 +37,14 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     }
 
     /**
-     * Returns a {@link View} object for the specified position in the
-     * {@link android.widget.ListView}.
+     * Returns a {@link View} object for the specified position in the {@link ListView}.
      *
-     * @param position    The position in the {@link android.widget.ListView} where the {@link View}
-     *                    will be displayed.
+     * @param position    The position in the {@link ListView} where the {@link View} will be
+     *                    displayed.
      * @param convertView A {@link View} object to populate. May already have a layout file
      *                    inflated due to view recycling.
      * @param parent      The parent {@link ViewGroup}.
-     * @return A {@link View} object for the specified position in the
-     * {@link android.widget.ListView}.
+     * @return A {@link View} object for the specified position in the {@link ListView}.
      */
     @NonNull
     @Override

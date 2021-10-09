@@ -17,25 +17,25 @@ import com.davidread.washingtontourguide.R;
 import java.util.ArrayList;
 
 /**
- * {@link PlacesListFragment} represents a {@link View} object with a {@link ListView}. The
+ * {@link CategoryFragment} represents a {@link View} object with a {@link ListView}. The
  * {@link ListView} displays the {@link ArrayList} of {@link Place} objects passed into the
  * fragment as an argument.
  */
-public class PlacesListFragment extends Fragment {
+public class CategoryFragment extends Fragment {
 
     // Member variable.
     private ArrayList<Place> places;
 
     /**
-     * Returns a {@link PlacesListFragment} object with the specified {@link ArrayList} object
+     * Returns a {@link CategoryFragment} object with the specified {@link ArrayList} object
      * passed as an argument.
      *
      * @param places An {@link ArrayList} of {@link Place} objects to be displayed in the fragment's
-     *               {@link android.widget.ListView}.
-     * @return A {@link PlacesListFragment} with arguments on it.
+     *               {@link ListView}.
+     * @return A {@link CategoryFragment} with arguments on it.
      */
-    public static PlacesListFragment newInstance(ArrayList<Place> places) {
-        PlacesListFragment fragment = new PlacesListFragment();
+    public static CategoryFragment newInstance(ArrayList<Place> places) {
+        CategoryFragment fragment = new CategoryFragment();
         Bundle args = new Bundle();
         args.putParcelableArrayList("places", places);
         fragment.setArguments(args);

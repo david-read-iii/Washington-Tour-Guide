@@ -5,7 +5,8 @@ import android.os.Parcelable;
 
 /**
  * {@link Place} is a model class that represents a place of interest in Washington. Each
- * {@link Place} object has a name, address, and description.
+ * {@link Place} object has a {@link String} object for name, address, and description. Implements
+ * {@link Parcelable} so that objects may be passed as arguments to activities and fragments.
  */
 public class Place implements Parcelable {
 

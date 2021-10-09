@@ -12,11 +12,18 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Toolbar style. -->
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
     </style>
 
     <style name="TabLayout" parent="Widget.Design.TabLayout">
         <item name="tabBackground">?attr/colorPrimary</item>
-        <item name="tabMode">fixed</item>
+        <item name="tabMode">scrollable</item>
         <item name="tabIndicatorColor">?attr/colorOnPrimary</item>
         <item name="tabTextColor">?attr/colorOnPrimary</item>
     </style>
