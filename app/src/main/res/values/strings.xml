@@ -2,5 +2,6 @@
 
     <string name="app_name">Washington Tour Guide</string>
     <string name="app_name_short">WTG</string>
+    <string name="neutral_dialog_button">Close</string>
 
 </resources>

@@ -1,10 +1,14 @@
 package com.davidread.washingtontourguide.Fragments;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,6 +29,26 @@ public class CategoryFragment extends Fragment {
 
     // Member variable.
     private ArrayList<Place> places;
+
+    // OnItemClickListener for the ListView.
+    private AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+            // Get clicked Place object.
+            Place place = places.get(position);
+
+            // Construct an AlertDialog with properties of the object.
+            AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+            builder.setTitle(place.getName());
+            builder.setMessage(place.getDescription());
+            builder.setNeutralButton(R.string.neutral_dialog_button, null);
+
+            // Show the AlertDialog.
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+        }
+    };
 
     /**
      * Returns a {@link CategoryFragment} object with the specified {@link ArrayList} object
@@ -64,9 +88,10 @@ public class CategoryFragment extends Fragment {
         // Create adapter to adapt objects in the ArrayList into views for the ListView.
         PlaceAdapter adapter = new PlaceAdapter(getContext(), places);
 
-        // Attach adapter to the ListView in the fragment's view.
+        // Attach adapter and define item click listener for the ListView in the fragment's view.
         ListView listView = view.findViewById(R.id.list_view);
         listView.setAdapter(adapter);
+        listView.setOnItemClickListener(onItemClickListener);
 
         // Return the fragment's view.
         return view;
