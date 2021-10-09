@@ -35,6 +35,4 @@
 
     <style name="TextView.Subtitle" parent="TextAppearance.AppCompat.Small" />
 
-    <style name="AlertDialog" parent="@android:style/Theme.Dialog"
-
 </resources>
